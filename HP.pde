@@ -34,8 +34,8 @@ void drawHealthBar() {
   fill(255, 255, 255);
   text("Health:   "+health, 670, 462);
 
-  // //  put the heart.png image on screen
-  //imageMode(CENTER);
-  //  image(heart, 650, 456);
+  // put the heart.png image on screen
+  imageMode(CENTER);
+  image(heart, 650, 456);
   noFill();
 }
